@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Empty</title>
+    <link href="empty.css" rel="stylesheet"> <!-- 외부 CSS 연결 -->
+    <style>
+        /* CSS 코드 */
+         #button01 {
+        text-align: center;
+        border-radius: 5px;
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        top: 50px;
+        left: 50px;
+        background-color: aquamarine;
+        border: dashed 1px #044261;
+       }
+       #target01 {
+            display: none;
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            top: 200px;
+            left: 50px;
+            background-color:rgb(255, 129, 141);
+            border: solid 1px #ac1111;
+        }
+        #button02 {
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            top: 600px;
+            left: 50px;
+            background-color: aquamarine;
+            border: dashed 3px #000000;
+        }
+        #target02 {
+            display: none;
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            top: 200px;
+            left: 50px;
+            background-color:rgb(255, 129, 141);
+            border: solid 1px #ac1111;
+        }
+        }
+        #forest02.jpg {
+            display: none;
+            position: absolute;
+            top: 200px;
+            left: 50px;
+        }
+        .box-container{
+		display: inline-block;
+		background-color: #d2f4ff;
+		border: 2px solid #09c;
+		margin: 2000px 15px;
+	}
+	.box-container div{
+		width: 120px;
+		height: 80px;
+		background-color: #fde6ff;
+		border: 2px solid #90C;
+		font-size: 15px;
+    }
+    #box1{ margin: 10px;  padding: 0; }
+      
+    </style>
+    
+
+</head>
+
+<body>
+    <p id="text01"> 뭘해야할지 모르겠다</p>
+    <div id="button01">눌러보세요</div>
+    <div id="target01"></div>
+    
+    <div id="button02">눌러보세요</div>
+    <div id="target02"></div>
+    <img src="forest02.jpg" width="400px">
+    <div class="box-container">
+		<div id="box1">m: 10<br>p: 0</div>
+
+<script type="text/javascript" src="js/jquery-3.6.1.js"></script> <!-- JS 라이브러리 또는 외부 스크립트 연결 -->
+<script>
+    /* JavaScript 코드 */
+    $('#text01').css('color', '#000000');
+    $('#button01').hover(
+            function(){
+             $('#target01').css('display','block')
+            },
+            function(){
+             $('#target01').css('display','none')
+            }
+        );
+        $('#button01').click(function(){
+            $('#target01').css({'width':'400px', 'height':'400px'});
+        });
+        $('#button02').hover(
+            function(){
+             $('#forest02.jpg').css('display','block')
+            },
+            function(){
+             $('#forest02.jpg').css('display','none')
+            }
+        );
+        $('#button02').click(function(){
+            $('#forest02.jpg').css({'width':'400px', 'height':'400px'});
+        });
+   
+</script>
+</body>
+    
+</html>
