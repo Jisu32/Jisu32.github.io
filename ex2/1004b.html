@@ -39,18 +39,6 @@
       
         //.off는 클릭 수가 쌓이는 걸 막기위해 있음
         $('#btn-left').off('click').on('click', function(){
-            console.log(x); 
-            if(x>=2) {
-                $('#slides').animate({'left': '+='+w*(n-1)}, 300);
-                x = 0;
-            }
-            else {
-                $('#slides').animate({'left': '-='+w}, 300);
-                x = x+1;  
-            }
-        });
-        
-        $('#btn-right').off('click').on('click', function(){
             console.log(x);
             if(x<=0) {
                 $('#slides').animate({'left': '-='+w*(n-1)}, 300);
@@ -59,6 +47,19 @@
             else {
                 $('#slides').animate({'left': '+='+w}, 300);
                 x = x-1;
+            }
+        });
+        
+        $('#btn-right').off('click').on('click', function(){
+            
+            console.log(x); 
+            if(x>=3) {
+                $('#slides').animate({'left': '+='+w*(n-1)}, 300);
+                x = 0;
+            }
+            else {
+                $('#slides').animate({'left': '-='+w}, 300);
+                x = x+1;  
             }
         });
     </script>
