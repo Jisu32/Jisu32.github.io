@@ -13,14 +13,16 @@
 <body>
     <div id="slideshow-frame">
         <div id="left-box">
-            <span id="btn-left" class="material-icons">navigate_before</span>
+            <span id="btn-left" class="material-icons">arrow_back</span> 
+            <!--구글폰트에 있는 아이콘 이름 적으면 됨--> 
         </div>
         <div id="right-box">
-            <span id="btn-right" class="material-icons">navigate_next</span>
+            <span id="btn-right" class="material-icons">arrow_forward</span>
+             <!--구글폰트에 있는 아이콘 이름 적으면 됨--> 
         </div>
         <div id="slides">
             <img src="images/image01.png">
-            <img src="images/image02.png">
+            <img src="images/forest01.jpg">
             <img src="images/image03.png">
         </div>
     </div>
@@ -33,16 +35,17 @@
         var x=0;
         var w=960; // 이미지의 너비
         var n=3; // 이미지의 수
-
+      
+        //.off는 클릭 수가 쌓이는 걸 막기위해 있음
         $('#btn-left').off('click').on('click', function(){
-            console.log(x);
+            console.log(x); 
             if(x>=2) {
                 $('#slides').animate({'left': '+='+w*(n-1)}, 300);
                 x = 0;
             }
             else {
                 $('#slides').animate({'left': '-='+w}, 300);
-                x = x+1;
+                x = x+1;  
             }
         });
         
