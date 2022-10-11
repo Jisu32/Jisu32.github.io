@@ -46,13 +46,22 @@
     <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
 
     <script>
+        
+
         $(window).on('scroll', function(){
+            var x = '300보다 더 내려감'; //문자열string), 숫자 
+            
             // 브라우저의 스크롤 상단값(scrollTop)을 변수 yPos에 저장
             var yPos = $(window).scrollTop();
+            //-300 붙이면 첫 시작이 -300, 음수 값도 같이 나옴
 
             // id가 box1인 요소의 텍스트에 변수 yPos 값 입력
             $('#box1').text(yPos);
-            
+
+            //if(X >= 300){$('#box1').text(x);} 
+            if($(window).scrollTop() >= 300){$('#box1').text(x);} 
+                 //true, fasle, text 글자는 '' 꼭 필요함
+            /*
             if(yPos >= 300) {
                 $('#target1').stop().animate({'right': '500px'}, 1000);
             } else {
@@ -62,7 +71,9 @@
                 $('#target2').stop().animate({'left': '500px'}, 1000);
             } else {
                 $('#target2').stop().animate({'left': '-2000px'}, 1000);
-            }
+            }  
+            */
+
         });
     </script>
 </body>
