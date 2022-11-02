@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <link rek = "stylesheet" herf="style.css"
+    type="text/css" />
+
+<style>
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6em;
+    background-color: rgb(0,0,0);
+    div{
+        margin: 24px auto;
+        padding:24px;
+        background-color: #000;
+        opacity:0,7;
+        width: 280px;
+        text-align: center;
+    }
+    input{
+        width:100%;
+    }
+    span{
+        color: #fff;
+    }
+}
+
+</style>
+
+    </head>
+
+    <body>
+        <div>
+            <input type ="range" min = "0" max="255" value="0"
+            onmoousemove="func_1(this.value)" /><br />
+            <input type ="range" min = "0" max="255" value="0"
+            onmoousemove="func_2(this.value)"
+            /><br />
+            <input type ="range" min = "0" max="255" value="0"
+            onmoousemove="func_3(this.value)"
+            /><br />
+            <span id="output">0,0,0</span>
+            
+        </div>
+        <script type="text/javascript"src="js/jquery-3.6.1.js">
+            window.red =0;
+            window.green=0;
+            window.blue=0;
+            function func_1(value) {
+             window.red = value;
+             change_bg();   
+            }
+            function func_2(value) {
+             window.green = value;
+             change_bg();   
+            }
+            function func_3(value) {
+             window.blue = value;
+             change_bg();   
+            }
+            function change_bg() {
+                document.getElementById("ouptput").innerHTML=window.red+","+window.green+","+window.blue;
+                document.body.style.backgroundColor="rgb("+window.red+","+window.green+","+window.blue+")";  
+            }
+            </script>
+
+        </body>
+        
+        
+        
+    </html>

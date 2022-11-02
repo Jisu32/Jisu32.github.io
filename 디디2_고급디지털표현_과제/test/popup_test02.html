@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+    <meta charset="utf-8">
+    <title>팝업창띄우기</title>
+    <style> 
+    @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 17px 'Nanum Gothic', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #404040;
+}
+
+li {
+    list-style: none;
+}
+
+/*BODY*/
+
+/*팝업창*/
+#popup {
+    display: none; /*숨기기*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+}
+
+#popmenu {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background: #fff;
+}
+
+#popmenu p {
+    margin-top: 80px;
+}
+
+.exit {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #007AAE;
+    cursor: pointer;
+}
+
+/*본문내용*/
+#contents {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.235);
+    cursor: pointer;
+}
+
+#whole_text {
+        position: absolute;
+        left : 150px;
+        right : 150px;
+        font-size : 2em;
+        font-family: 'Noto Serif KR', serif;
+      }
+
+    </style>
+</head>
+
+<body>
+    <!--pop up-->
+   <div id="popup">
+       <div id="popmenu">
+           <p>안녕하세요!</p>
+           <div class="exit">닫기</div>
+       </div>
+   </div>
+    
+    <!--contents-->
+     <div id="whole_text">
+        <span class="text01">
+        <span style="color:red">편지는 이상하다.봉투를 열고 편지지를 펼치면 내가 전혀 몰랐던 마음이 펼쳐진다. 말은 사라지고 기억은 희미해져도 글자는 남는다. 
+      비밀스러운 마음이 선명하게 남아 버린다. 내게 그걸 주면 나는 가진다. 편지를 쓸 때의 그 마음은 나는 확실히 가진다.</span>
+      </span>
+     </div>
+    
+    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+                $("#text01").click(function(){
+                    $("#popup").fadeIn();
+                });
+                $("#popup").click(function(){
+                    $("#popup").fadeOut();
+                });
+});
+    </script>
+</body>
+</html>

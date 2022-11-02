@@ -1,0 +1,137 @@
+<!--
+    CSS transition 속성 관련 참고 링크 : 
+        https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+        http://www.tcpschool.com/css/css3_transform_transition
+ -->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>custom cursor</title>
+    <style>
+        * {
+            cursor: none; /*마우스 커서가 안 보이게 하는 코드*/
+        }
+        html, body {
+            height: 100%;
+        }
+        .cursor {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            border-radius: 100%; /*모서리 둥굴기*/
+            border: solid 3px rgb(0, 0, 0); 
+            /*mix-blend-mode: difference; */ /* 색상 혼합 모드 */
+            background-color: transparent;
+
+            /* 마우스 커서로 이미지를 사용하는 경우 */
+            /* background-color: transparent;
+            background-image: url('images/cursor1.png');
+            background-size: contain;
+            background-repeat: no-repeat; */
+            pointer-events: none;
+ 
+            z-index: 1000;
+            transition: transform 0.2s; /* css 애니메이션의 상태변화(transition)에 걸리는 시간 */
+        }
+        .trigger {
+            transition: all 0.2s, color 0s;
+        }
+        #object1 {
+            position: relative;
+            width: 800px;
+            top: 100px;
+            left: 100px;
+            background-color: transparent;
+            font-size: 24px;
+            line-height: 180%;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cursor"></div> <!-- 커서 오브젝트 -->
+    <div id="object1">
+        <p>
+            젤다의 전설(일본어: ゼルダの伝説, 영어: The Legend of Zelda)은 
+            <span class="trigger">닌텐도</span>의 게임 디자이너인 
+            <span class="trigger">미야모토 시게루</span>와 테즈카 타카시가 만들고 
+            닌텐도가 배급한 액션 어드벤처 게임 시리즈이다. 
+            게임플레이는 액션, 어드벤처, 퍼즐, 롤플레잉을 섞은 형식으로 이루어지며, 
+            주인공인 <span class="trigger">링크</span>가 이 시리즈의 최종 보스인 
+            가논돌프에게서 젤다와 하이랄 왕국을 구하는 것, 
+            무한한 힘을 가진 유물인 트라이포스와 관련한 이야기가 주요 내용이다. 
+        </p>
+    </div>
+
+    <!-- jQuery 라이브러리 연결 -->
+    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            var cursor = $('.cursor'); // 커서 오브젝트를 담기 위한 변수
+
+            // 마우스 포인터 위치에 커서 오브젝트 표시
+            $(window).on('mousemove', function(e){
+                cursor.css({
+                    'top': e.clientY - cursor.height() / 2,
+                    'left': e.clientX - cursor.width() / 2
+                });
+            });
+
+            // 마우스 포인터가 웹브라우저 영역 바깥으로 나갈 경우 커서가 보이지 않게 함
+            $(window).on('mouseleave', function(){
+                cursor.css({
+                    'opacity': '0'
+                });
+            });
+            $(window).on('mouseenter', function(){
+                cursor.css({
+                    'opacity': '1'
+                });
+            });
+
+            // 마우스 클릭 시(눌렸을 때 down, 뗐을 때 up) 커서의 크기에 변화를 줌
+            $(window).on('mousedown', function(){
+                cursor.css({
+                    'transform': 'scale(0.3)'
+                });
+            });
+            $(window).on('mouseup', function(){
+                cursor.css({
+                    'transform': 'scale(1.0)'
+                });
+            });
+
+            // 마우스 포인터를 트리거 오브젝트(trigger 클래스)에 올릴 때의 효과
+            $('.trigger').on('mouseleave', function(){
+                cursor.css({
+                    'transform': 'scale(1.0)',
+                    'border' : 'solid 3px #000'
+                });
+                $(this).css({
+                    'color':'#000',
+                    'font-size':'24px',
+                    'font-weight':'400'
+                });
+                /*this라고 지정하지 않고 trigger을 넣을 시 트리거로 지정한 모든 오브젝트가 반응하기 때문에 this라고 입력함*/
+            });
+            $('.trigger').on('mouseenter', function(){
+                cursor.css({
+                    'transform': 'scale(2.5)',
+                    'border' : 'solid 3px #f00'
+                });
+                $(this).css({
+                    'color': '#f00',
+                    'font-size': '30px',
+                    'font-weight': '700',
+                });
+            });
+        });
+    </script>
+</body>
+    
+</html>
