@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Gugi&family=Noto+Serif+KR:wght@300;400&display=swap');
 
-
-html {
-  /* Firefox에서 브라우저 스크롤바 없애기 */
-  scrollbar-width: none;
-}
-
-/*body {
-  height: 2000px;
-}*/
-body::-webkit-scrollbar {
-  /* Chrome, Edge에서 브라우저 스크롤바 없애기 */
-  display: none;
-}
-
 .container {
   overflow: hidden;
 }
@@ -1581,6 +1567,182 @@ body::-webkit-scrollbar {
   font-weight: 200;
 }
 
+.name1 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  left: 660px;
+  top: 200px;
+  /* background-color: aquamarine; */
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.name4 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  left: 660px;
+  top: 100px;
+  /* background-color: aquamarine; */
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.name59 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  left: 660px;
+  top: 110px;
+  /* background-color: aquamarine; */
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.name7 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  left: 660px;
+  top: 120px;
+  /* background-color: aquamarine; */
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.writer1 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  left: 660px;
+  top: 240px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.writer4 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  left: 660px;
+  top: 140px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.writer59 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  left: 660px;
+  top: 150px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.writer7 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  left: 660px;
+  top: 160px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.explain1 {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  left: 660px;
+  top: 290px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.0em;
+}
+
+.explain4 {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  left: 660px;
+  top: 190px;
+  font-size: 0.8em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.0em;
+}
+
+.explain59 {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  left: 660px;
+  top: 200px;
+  font-size: 0.8em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.0em;
+}
+
+.explain7 {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  left: 660px;
+  top: 210px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.0em;
+}
+
 
 .exit1 {
   display: block;
@@ -1805,227 +1967,6 @@ span {
   color: white;
 }
 
-
-.name1 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 80px;
-  left: 660px;
-  top: 200px;
-  /* background-color: aquamarine; */
-  font-size: 1.5em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 200;
-}
-
-.name4 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 80px;
-  left: 660px;
-  top: 100px;
-  /* background-color: aquamarine; */
-  font-size: 1.5em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 200;
-}
-
-.name59 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 80px;
-  left: 660px;
-  top: 110px;
-  /* background-color: aquamarine; */
-  font-size: 1.5em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 200;
-}
-
-.name7 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 80px;
-  left: 660px;
-  top: 120px;
-  /* background-color: aquamarine; */
-  font-size: 1.5em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 200;
-}
-
-.writer1 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 40px;
-  left: 660px;
-  top: 240px;
-  font-size: 1.0em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.writer4 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 40px;
-  left: 660px;
-  top: 140px;
-  font-size: 1.0em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.writer59 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 40px;
-  left: 660px;
-  top: 150px;
-  font-size: 1.0em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.writer7 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 40px;
-  left: 660px;
-  top: 160px;
-  font-size: 1.0em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-
-.overlay1 {
-  display: block;
-  position: fixed;
-  width: 600px;
-  height: 80px;
-  left: 660px;
-  top: 290px;
-}
-
-.overlay4 {
-  display: block;
-  position: fixed;
-  width: 600px;
-  height: 80px;
-  left: 660px;
-  top: 190px;
-}
-
-.overlay59 {
-  display: block;
-  position: fixed;
-  width: 600px;
-  height: 80px;
-  left: 660px;
-  top: 200px;
-}
-
-.overlay7 {
-  display: block;
-  position: fixed;
-  width: 600px;
-  height: 80px;
-  left: 660px;
-  top: 210px;
-}
-
-.explain1 {
-  /*display: block;
-  position: absolute;
-  width: 600px;
-  height: 80px;
-  left: 660px;
-  top: 290px;*/
-  position: absolute;
-  width: 100%;
-  font-size: 1.0em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2.0em;
-}
-
-.explain4 {
-  /*display: block;
-  position: absolute;
-  width: 600px;
-  height: 80px;
-  left: 660px;
-  top: 190px;*/
-  position: absolute;
-  width: 100%;
-  font-size: 0.8em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2.0em;
-}
-
-.explain59 {
-  /*display: block;
-  position: absolute;
-  width: 600px;
-  height: 80px;
-  left: 660px;
-  top: 200px;*/
-  position: absolute;
-  width: 100%;
-  font-size: 0.8em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2.0em;
-}
-
-.explain7 {
-  /*display: block;
-  position: absolute;
-  width: 600px;
-  height: 80px;
-  left: 660px;
-  top: 210px;*/
-  position: absolute;
-  width: 100%;
-  font-size: 1.0em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2.0em;
-}
 
 
 
@@ -2998,7 +2939,23 @@ span {
     text-align: center;
   }
 
-
+  .explain1 {
+    overflow: scroll;
+    display: block;
+    position: relative;
+    width: 70%;
+    height: 300px;
+    left: 50%;
+    top: 250px;
+    transform: translate(-50%);
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Noto Serif KR', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.0em;
+    text-align: center;
+  }
 
   .name4 {
     display: block;
@@ -3099,80 +3056,15 @@ span {
     text-align: center;
   }
 
-  .overlay1 {
-    display: block;
-    position: fixed;
-    width: 70%;
-    height: 40%;
-    left: 50%;
-    top: 250px;
-    transform: translate(-50%);
-    overflow-y: scroll;
-
-  }
-
-  .overlay4 {
-    display: block;
-    position: fixed;
-    width: 70%;
-    height: 40%;
-    left: 50%;
-    top: 250px;
-    transform: translate(-50%);
-    overflow-y: scroll;
-  }
-
-  .overlay59 {
-    overflow-y: scroll;
-    display: block;
-    position: fixed;
-    width: 70%;
-    height: 40%;
-    left: 50%;
-    top: 250px;
-    transform: translate(-50%);
-  }
-
-  .overlay7 {
-    overflow-y: scroll;
-    display: block;
-    position: fixed;
-    width: 70%;
-    height: 40%;
-    left: 50%;
-    top: 250px;
-    transform: translate(-50%);
-  }
-
-  .explain1 {
-    /* display: block;
-    position: relative;
-    width: 70%;
-    height: 40%;
-    left: 50%;
-    top: 250px;
-    transform: translate(-50%);*/
-    position: absolute;
-    width: 100%;
-    font-size: 0.8em;
-    color: white;
-    font-family: 'Noto Serif KR', serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2.0em;
-    text-align: center;
-  }
-
   .explain4 {
-    /*display: block;
+    overflow: scroll;
+    display: block;
     position: relative;
     width: 70%;
-    height: 40%;
+    height: 300px;
     left: 50%;
     top: 250px;
-    transform: translate(-50%);*/
-    position: absolute;
-    width: 100%;
+    transform: translate(-50%);
     font-size: 0.8em;
     color: white;
     font-family: 'Noto Serif KR', serif;
@@ -3183,15 +3075,14 @@ span {
   }
 
   .explain59 {
-    /* display: block;
+    overflow: scroll;
+    display: block;
     position: relative;
     width: 70%;
-    height: 40%;
+    height: 300px;
     left: 50%;
     top: 250px;
-    transform: translate(-50%);*/
-    position: absolute;
-    width: 100%;
+    transform: translate(-50%);
     font-size: 0.8em;
     color: white;
     font-family: 'Noto Serif KR', serif;
@@ -3202,15 +3093,14 @@ span {
   }
 
   .explain7 {
-    /*display: block;
+    overflow: scroll;
+    display: block;
     position: relative;
     width: 70%;
-    height: 40%;
+    height: 300px;
     left: 50%;
     top: 250px;
-    transform: translate(-50%);*/
-    position: absolute;
-    width: 100%;
+    transform: translate(-50%);
     font-size: 0.8em;
     color: white;
     font-family: 'Noto Serif KR', serif;
@@ -3370,62 +3260,40 @@ span {
     top: 210px;
   }
 
-  .overlay1 {
-    left: 50%;
-    transform: translate(-50%);
-    overflow-y: scroll;
-    width: 70%;
-    top: 250px;
-  }
-
-  .overlay4 {
-    left: 50%;
-    transform: translate(-50%);
-    overflow-y: scroll;
-    width: 70%;
-    top: 250px;
-  }
-
-  .overlay59 {
-    left: 50%;
-    overflow-y: scroll;
-    transform: translate(-50%);
-    width: 70%;
-    top: 250px;
-  }
-
-  .overlay7 {
-    left: 50%;
-    overflow-y: scroll;
-    transform: translate(-50%);
-    width: 70%;
-    top: 250px;
-  }
-
   .explain1 {
-    width: 100%;
+    overflow: scroll;
+    height: 300px;
+    left: 50%;
     font-size: 0.8em;
+    width: 70%;
+    top: 250px;
   }
 
   .explain4 {
-    width: 100%;
-
+    overflow: scroll;
+    height: 300px;
+    left: 50%;
     font-size: 0.8em;
-
+    width: 70%;
+    top: 250px;
   }
 
   .explain59 {
-    width: 100%;
-
+    overflow: scroll;
+    height: 300px;
+    left: 50%;
     font-size: 0.8em;
-
+    width: 70%;
+    top: 250px;
   }
 
   .explain7 {
-    width: 100%;
-
+    overflow: scroll;
+    height: 300px;
+    left: 50%;
     font-size: 0.8em;
-
+    width: 70%;
+    top: 250px;
   }
 
   #whole_text2 {
@@ -4415,100 +4283,77 @@ span {
   }
 
   .writer1 {
+    width: 800px;
     left: 50%;
     top: 210px;
     font-size: 0.8em;
   }
 
   .writer4 {
+    width: 800px;
     left: 50%;
     top: 210px;
     font-size: 0.8em;
   }
 
   .writer59 {
+    width: 800px;
     left: 50%;
     top: 210px;
     font-size: 0.8em;
   }
 
   .writer7 {
+    width: 800px;
     left: 50%;
     top: 210px;
     font-size: 0.8em;
   }
 
-  .overlay1 {
-    transform: translate(-50%);
-    overflow-y: scroll;
-    left: 50%;
-    top: 230px;
-    width: 70%;
-    height: 600px;
-  }
-
-  .overlay4 {
-    transform: translate(-50%);
-    overflow-y: scroll;
-    left: 50%;
-    top: 230px;
-    width: 70%;
-    height: 600px;
-  }
-
-  .overlay59 {
-    overflow-y: scroll;
-    transform: translate(-50%);
-    left: 50%;
-    top: 230px;
-    width: 70%;
-    height: 600px;
-  }
-
-  .overlay7 {
-    left: 50%;
-    overflow-y: scroll;
-    transform: translate(-50%);
-    left: 50%;
-    top: 230px;
-    width: 70%;
-    height: 600px;
-  }
-
   .explain1 {
-    position: absolute;
-    width: 100%;
+    overflow: scroll;
+    height: 300px;
+    left: 50%;
+    top: 230px;
+    width: 70%;
   }
-
 
   .explain4 {
-    position: absolute;
-    width: 100%;
+    overflow: scroll;
+    height: 300px;
+    left: 50%;
+    top: 230px;
+    width: 70%;
   }
 
   .explain59 {
-    position: absolute;
-    width: 100%;
+    overflow: scroll;
+    height: 300px;
+    left: 50%;
+    top: 230px;
+    width: 70%;
   }
 
   .explain7 {
-    position: absolute;
-    width: 100%;
+    overflow: scroll;
+    height: 300px;
+    left: 50%;
+    top: 230px;
+    width: 70%;
   }
 
+  .exit1 {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 10%;
+    top: 50px;
+    background-image: url("exit_button.png");
+    background-size: cover;
+  }
 
-    .exit1 {
-      display: block;
-      position: absolute;
-      width: 30px;
-      height: 30px;
-      right: 10%;
-      top: 50px;
-      background-image: url("exit_button.png");
-      background-size: cover;
-    }
-
-    /*display: block;
+  /*display: block;
   position: absolute;
   width: 50px;
   height: 50px;
@@ -4517,968 +4362,966 @@ span {
   background-image: url("exit_button.png");
   background-size: cover;*/
 
-    #whole_text {
-      display: block;
-      position: relative;
-      top: 200px;
-      margin: 0 auto;
-      left: 0;
-      width: 80%;
-      font-size: 1.0em;
-      font-family: 'Noto Serif KR', serif;
-      line-height: 2.0em;
-    }
-
-    #whole_text2 {
-      display: block;
-      position: relative;
-      top: 200px;
-      left: 0;
-      margin: 0 auto;
-      width: 80%;
-      padding-bottom: 100px;
-      font-size: 1.0em;
-      font-family: 'Noto Serif KR', serif;
-      line-height: 2.0em;
-    }
-
-    #title {
-      display: block;
-      position: absolute;
-      width: 200px;
-      height: 50px;
-      top: 40px;
-      margin: 0;
-      padding: 0;
-      left: 35%;
-      font-family: 'Noto Serif KR', serif;
-      font-style: normal;
-      font-weight: 200;
-      font-size: 1.5em;
-      color: #F36C36;
-    }
-
-    #up {
-      display: block;
-      position: fixed;
-      width: 35px;
-      height: 35px;
-      right: 50px;
-      bottom: 50px;
-      background-image: url('up_black.png');
-      background-size: cover;
-      border-radius: 50%;
-      box-shadow: 5px 5px 3px rgb(158, 158, 158);
-      z-index: 1000;
-    }
-
-    .seekbar-progress [role="progressbar"]:after {
-      content: " ";
-      display: block;
-      width: 40px;
-      height: 40px;
-      position: absolute;
-      top: 2px;
-      right: -8px;
-      background-image: url('pen.png');
-      background-size: cover;
-      background-repeat: repeat-x;
-    }
-
-    .seekbar {
-      top: 80px;
-      margin: 12px 0;
-      padding: 10px 100px;
-      position: relative;
-    }
-
-    .seekbar input[type="range"]::-webkit-slider-thumb {
-      -webkit-appearance: none;
-      display: block;
-      width: 200px;
-      height: 48px;
-      background-color: transparent;
-    }
-    #box1 {
-      overflow: scroll;
-    }
-    .bookimage1 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: #ebebeb;
-      background-image: url('picture/구의증명.jpg');
-      background-size: cover;
-    }
-
-
-
-    .bookimage2 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/관광산업론_손대현,장희정.jpg');
-      background-size: cover;
-    }
-
-    .bookimage3 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/느긋하게 홋카이도_남자휴식위원회.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage4 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/아몬드_손원평.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage5 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/우리 대중문화 길찾기_강준만.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage6 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/도요타, 초일류를 만드는 조직문화_정일구.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage7 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/유시민의 공감필법_유시민.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage8 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/나나 너나 할 수 있다_금나나.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage9 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/마법의 말 25_야마자키 다쿠미.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage10 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/인간과 직업 Ⅰ_김병숙.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage11 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/하버드 협상 강의_하버드 공개강의연구회.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage12 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/매출을 100배 높여주는 e-CRM마케팅_사와노보리 히데아키.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage13 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/나로 살아가는 기쁨_아니타 무르자니.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage14 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/한국 극작가론_김길수.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage15 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/보통 엄마의 특목고 성공기_이희자.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage16 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/누구나10kg 뺄 수 있다_유태우.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage17 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/행복한 공부_정영출.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage18 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/제자입니까_후안 카를로스 오르티즈.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage19 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/목적이 이끄는 삶_릭 워렌.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage20 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/화성남자 금성여자의 사랑의 완성_존 그레이.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage21 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/미로속에서 암과 만나다_김규원.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage22 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/아이와 통하고 싶다_최명희.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage23 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/의대합격소스_박정진.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage24 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/김상수연극책_김상수.png');
-      background-size: cover;
-    }
-
-
-    .bookimage25 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/따뜻한 모래_루이제 린저.png');
-      background-size: cover;
-    }
-
-
-    .bookimage26 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/세월을 아끼라_박윤선.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage27 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/회중을 춤추게 하는 예배 인도자_탐 크라우터.jpg');
-      background-size: cover;
-    }
-
-    .bookimage28 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/전교꼴지, 서울대 가다!_고리들(고영훈).jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage29 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/개인주의자 선언_문유석.jpg');
-      background-size: cover;
-    }
-
-
-
-    .bookimage30 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/내가 되는 꿈_최진영.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage31 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/조선족문학연구_임범송, 주필.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage32 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/김동환의-다니엘학습-실천법-중학생편_김동환.png');
-      background-size: cover;
-    }
-
-
-    .bookimage33 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/당당하게 일어나 자신있게 말하라_마리온 위츠.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage34 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/미술의 피부_이건수.jpg');
-      background-size: cover;
-    }
-
-
-
-    .bookimage35 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/중국 조선족 문학통사_권철, 조성일.png');
-      background-size: cover;
-    }
-
-
-    .bookimage36 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/보이지 않는 손길_해리 벡위드.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage37 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/시나리오 어떻게 쓸 것인가_로버트 맥키.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage38 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/대한민국 20대, 재테크에 미쳐라_정철진.jpg');
-      background-size: cover;
-    }
-
-
-
-    .bookimage39 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/이것이 진짜 공부다_ 서경석, 강성태, 박철범, 이병훈.jpg');
-      background-size: cover;
-    }
-
-
-
-    .bookimage40 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/한국인의 굿과 놀이_이상일.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage41 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/사피엔스_유발 하라리.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage42 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/2021 내 집 마련 가계부_김유라.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage43 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/그냥 살아만 있어 아무것도 안 해도 돼_이유미, 이하연.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage44 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/나는 바람처럼 자유롭다_최인호.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage45 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/넛지 똑똑한 선택을 이끄는 힘_ 리처드 탈러, 캐스 선스타인.jpg');
-      background-size: cover;
-    }
-
-
-
-    .bookimage46 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/비상식적 성공 법칙_간다 마사노리.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage47 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/오은영의 화해_오은영.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage48 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/제주 보헤미안_김태경.jpg');
-      background-size: cover;
-    }
-
-
-
-    .bookimage49 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/평소의 발견_유병욱.jpg');
-      background-size: cover;
-    }
-
-
-
-    .bookimage50 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/말 그릇_김윤나.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage51 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/용기를 주는 말 상처를 주는 말_조셉 텔러슈킨.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage52 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/죽음_베르나르 베르베르.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage53 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/MIT리더십센터 말하기 특강_비카스 고팔 징그란.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage54 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/끌리는 사람은 1_가 다르다_이민규.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage55 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/미국 대학 입학 길라잡이_양민.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage56 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/살고 싶다는 농담_허지웅.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage57 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/보도 섀퍼의 이기는 습관_보도 섀퍼.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage58 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/처음 만나는 아트 컬렉팅_이소영.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage59 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/국제적 우등생은 10살 전에 키워진다_전평국.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage60 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/오리진이 되라_강신장.jpg');
-      background-size: cover;
-    }
-
-
-    .bookimage61 {
-      display: block;
-      position: relative;
-      width: 130px;
-      height: 200px;
-      top: 200px;
-      left: 50%;
-      transform: translate(-50%);
-      background-color: aliceblue;
-      background-image: url('picture/도쿄만담_정숙영.jpg');
-      background-size: cover;
-    }
-
-
-
-    #title_hover {
-      display: none;
-      position: absolute;
-      width: 350px;
-      height: 350px;
-      top: 180px;
-      margin: 0;
-      left: 30px;
-      padding: 15px;
-      background-color: rgb(255, 255, 162);
-      font-family: 'Noto Serif KR', serif;
-      font-style: normal;
-      font-weight: 200;
-      font-size: 0.8em;
-      line-height: 2.0em;
-      box-shadow: 5px 5px 3px rgb(158, 158, 158);
-      z-index: 1000;
-    }
+  #whole_text {
+    display: block;
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+    left: 0;
+    width: 80%;
+    font-size: 1.0em;
+    font-family: 'Noto Serif KR', serif;
+    line-height: 2.0em;
   }
+
+  #whole_text2 {
+    display: block;
+    position: relative;
+    top: 200px;
+    left: 0;
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 100px;
+    font-size: 1.0em;
+    font-family: 'Noto Serif KR', serif;
+    line-height: 2.0em;
+  }
+
+  #title {
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 40px;
+    margin: 0;
+    padding: 0;
+    left: 35%;
+    font-family: 'Noto Serif KR', serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.5em;
+    color: #F36C36;
+  }
+
+  #up {
+    display: block;
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    right: 50px;
+    bottom: 50px;
+    background-image: url('up_black.png');
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px rgb(158, 158, 158);
+    z-index: 1000;
+  }
+
+  .seekbar-progress [role="progressbar"]:after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 2px;
+    right: -8px;
+    background-image: url('pen.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+  }
+
+  .seekbar {
+    top: 80px;
+    margin: 12px 0;
+    padding: 10px 100px;
+    position: relative;
+  }
+
+  .seekbar input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    display: block;
+    width: 200px;
+    height: 48px;
+    background-color: transparent;
+  }
+
+  .bookimage1 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #ebebeb;
+    background-image: url('picture/구의증명.jpg');
+    background-size: cover;
+  }
+
+
+
+  .bookimage2 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/관광산업론_손대현,장희정.jpg');
+    background-size: cover;
+  }
+
+  .bookimage3 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/느긋하게 홋카이도_남자휴식위원회.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage4 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/아몬드_손원평.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage5 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/우리 대중문화 길찾기_강준만.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage6 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/도요타, 초일류를 만드는 조직문화_정일구.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage7 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/유시민의 공감필법_유시민.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage8 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/나나 너나 할 수 있다_금나나.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage9 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/마법의 말 25_야마자키 다쿠미.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage10 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/인간과 직업 Ⅰ_김병숙.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage11 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/하버드 협상 강의_하버드 공개강의연구회.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage12 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/매출을 100배 높여주는 e-CRM마케팅_사와노보리 히데아키.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage13 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/나로 살아가는 기쁨_아니타 무르자니.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage14 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/한국 극작가론_김길수.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage15 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/보통 엄마의 특목고 성공기_이희자.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage16 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/누구나10kg 뺄 수 있다_유태우.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage17 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/행복한 공부_정영출.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage18 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/제자입니까_후안 카를로스 오르티즈.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage19 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/목적이 이끄는 삶_릭 워렌.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage20 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/화성남자 금성여자의 사랑의 완성_존 그레이.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage21 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/미로속에서 암과 만나다_김규원.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage22 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/아이와 통하고 싶다_최명희.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage23 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/의대합격소스_박정진.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage24 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/김상수연극책_김상수.png');
+    background-size: cover;
+  }
+
+
+  .bookimage25 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/따뜻한 모래_루이제 린저.png');
+    background-size: cover;
+  }
+
+
+  .bookimage26 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/세월을 아끼라_박윤선.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage27 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/회중을 춤추게 하는 예배 인도자_탐 크라우터.jpg');
+    background-size: cover;
+  }
+
+  .bookimage28 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/전교꼴지, 서울대 가다!_고리들(고영훈).jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage29 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/개인주의자 선언_문유석.jpg');
+    background-size: cover;
+  }
+
+
+
+  .bookimage30 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/내가 되는 꿈_최진영.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage31 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/조선족문학연구_임범송, 주필.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage32 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/김동환의-다니엘학습-실천법-중학생편_김동환.png');
+    background-size: cover;
+  }
+
+
+  .bookimage33 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/당당하게 일어나 자신있게 말하라_마리온 위츠.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage34 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/미술의 피부_이건수.jpg');
+    background-size: cover;
+  }
+
+
+
+  .bookimage35 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/중국 조선족 문학통사_권철, 조성일.png');
+    background-size: cover;
+  }
+
+
+  .bookimage36 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/보이지 않는 손길_해리 벡위드.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage37 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/시나리오 어떻게 쓸 것인가_로버트 맥키.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage38 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/대한민국 20대, 재테크에 미쳐라_정철진.jpg');
+    background-size: cover;
+  }
+
+
+
+  .bookimage39 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/이것이 진짜 공부다_ 서경석, 강성태, 박철범, 이병훈.jpg');
+    background-size: cover;
+  }
+
+
+
+  .bookimage40 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/한국인의 굿과 놀이_이상일.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage41 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/사피엔스_유발 하라리.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage42 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/2021 내 집 마련 가계부_김유라.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage43 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/그냥 살아만 있어 아무것도 안 해도 돼_이유미, 이하연.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage44 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/나는 바람처럼 자유롭다_최인호.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage45 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/넛지 똑똑한 선택을 이끄는 힘_ 리처드 탈러, 캐스 선스타인.jpg');
+    background-size: cover;
+  }
+
+
+
+  .bookimage46 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/비상식적 성공 법칙_간다 마사노리.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage47 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/오은영의 화해_오은영.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage48 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/제주 보헤미안_김태경.jpg');
+    background-size: cover;
+  }
+
+
+
+  .bookimage49 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/평소의 발견_유병욱.jpg');
+    background-size: cover;
+  }
+
+
+
+  .bookimage50 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/말 그릇_김윤나.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage51 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/용기를 주는 말 상처를 주는 말_조셉 텔러슈킨.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage52 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/죽음_베르나르 베르베르.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage53 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/MIT리더십센터 말하기 특강_비카스 고팔 징그란.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage54 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/끌리는 사람은 1_가 다르다_이민규.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage55 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/미국 대학 입학 길라잡이_양민.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage56 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/살고 싶다는 농담_허지웅.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage57 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/보도 섀퍼의 이기는 습관_보도 섀퍼.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage58 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/처음 만나는 아트 컬렉팅_이소영.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage59 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/국제적 우등생은 10살 전에 키워진다_전평국.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage60 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/오리진이 되라_강신장.jpg');
+    background-size: cover;
+  }
+
+
+  .bookimage61 {
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 200px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: aliceblue;
+    background-image: url('picture/도쿄만담_정숙영.jpg');
+    background-size: cover;
+  }
+
+
+
+  #title_hover {
+    display: none;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 180px;
+    margin: 0;
+    left: 30px;
+    padding: 15px;
+    background-color: rgb(255, 255, 162);
+    font-family: 'Noto Serif KR', serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 0.8em;
+    line-height: 2.0em;
+    box-shadow: 5px 5px 3px rgb(158, 158, 158);
+    z-index: 1000;
+  }
+}
