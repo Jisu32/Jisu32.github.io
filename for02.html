@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>for 구문(statement)</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .cell {
+            display: inline-block;
+            width: 400px;
+            height: 300px;
+            margin: 8px 0 0 8px;
+            background-color: aquamarine;
+        }
+        .cell > p {
+            font-size: 24px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <!-- jQuery 라이브러리 연결 -->
+    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+
+    <script>
+        // 배열(array) 변수 정의(선언)
+        var colors = ['#EB5E28', '#E9D2F4', '#89DAFF', '#6E2594', '#ECD444'];
+        var words = ['수선화', '제비꽃', '히아신스', '메리골드', '튤립'];
+
+        $(document).ready(function(){  
+            for(var i=0; i<10; i++) { // for(초기값; 조건; 증감)
+                var rand = Math.floor(Math.random() * 5); // 0~4 사이의 랜덤 숫자 만들기
+
+                var obj = $('<div class="cell"></div>'); // jQuery로 HTML element 오브젝트 만들기
+                
+                $('#container').append(obj); // id가 container인 엘리먼트 안에 obj 오브젝트(엘리먼트) 추가
+                
+                obj.css('background-color', colors[rand]); // obj 오브젝트(엘리먼트)의 css 속성 바꾸기
+                obj.html('<p>' + words[rand] + '</p>'); // obj 오브젝트(엘리먼트)에 html 추가
+                // console.log(obj);
+            }
+        });
+    </script>
+</body>
+    
+</html>

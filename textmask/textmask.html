@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>텍스트 마스크</title>
+    <style>
+        body {
+            background-color:beige;
+        }
+        #test {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        /*숫자표기*/
+
+
+        #box1 {
+            position: absolute;
+            top: 100px;
+            left: 10vw;
+            width: 80vw;
+            height: 800px;
+            font-size: 48px;
+            font-weight: 700;
+            background-color: #f00;
+            background-image: url('bg.svg');
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            background-position-x: -100vw;
+            background-clip: text;
+            color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="test"></div>
+    <div id="box1">
+        <p>
+            젤다의 전설(일본어: ゼルダの伝説, 영어: The Legend of Zelda)은 
+            닌텐도의 게임 디자이너인 
+            미야모토 시게루와 테즈카 타카시가 만들고 
+            닌텐도가 배급한 액션 어드벤처 게임 시리즈이다. 
+            게임플레이는 액션, 어드벤처, 퍼즐, 롤플레잉을 섞은 형식으로 이루어지며, 
+            주인공인 링크가 이 시리즈의 최종 보스인 
+            가논돌프에게서 젤다와 하이랄 왕국을 구하는 것, 
+            무한한 힘을 가진 유물인 트라이포스와 관련한 이야기가 주요 내용이다. 
+        </p>
+    </div>
+
+    <!-- jQuery 라이브러리 연결 -->
+    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            var mouseX = 0;
+
+            $(window).on('mousemove', function(e){
+                mouseX = e.clientX; // e.clientX는 마우스 포인터의 x 위치
+
+                $('#test').text(mouseX);
+
+                // $(window).width()는 브라우저 윈도우의 뷰포트 가로 크기
+                $('#box1').css('background-position-x', mouseX - $(window).width());
+
+                // 마우스 움직임이 빨라서 배경이미지가 제대로 처리되지 않는 경우
+                if(mouseX <= 100) {
+                    $('#box1').css('background-position-x', -$(window).width());
+                }
+            });
+        });
+    </script>
+</body>
+    
+</html>

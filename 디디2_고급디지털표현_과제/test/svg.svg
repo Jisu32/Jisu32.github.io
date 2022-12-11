@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="20990" viewBox="0 0 1920 20990">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-svg);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-svg">
+      <rect width="1920" height="20990"/>
+    </clipPath>
+  </defs>
+  <g id="svg" class="cls-1">
+    <rect class="cls-2" width="1920" height="20990"/>
+    <rect id="사각형_3" data-name="사각형 3" width="1920" height="21052"/>
+  </g>
+</svg>
