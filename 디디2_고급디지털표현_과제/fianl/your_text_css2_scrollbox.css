@@ -62,7 +62,7 @@
 /*창*/
 
 #box1 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -74,7 +74,7 @@
 }
 
 #box2 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -86,7 +86,7 @@
 }
 
 #box3 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -98,7 +98,7 @@
 }
 
 #box4 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -110,7 +110,7 @@
 }
 
 #box5 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -122,7 +122,7 @@
 }
 
 #box6 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -134,7 +134,7 @@
 }
 
 #box7 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -146,7 +146,7 @@
 }
 
 #box8 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -158,7 +158,7 @@
 }
 
 #box9 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -170,7 +170,7 @@
 }
 
 #box10 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -183,7 +183,7 @@
 
 
 #box11 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -196,7 +196,7 @@
 
 
 #box12 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -210,7 +210,7 @@
 
 
 #box13 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -224,7 +224,7 @@
 
 
 #box14 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -236,7 +236,7 @@
 
 
 #box15 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -248,7 +248,7 @@
 
 
 #box16 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -260,7 +260,7 @@
 
 
 #box17 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -272,7 +272,7 @@
 
 
 #box18 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -284,7 +284,7 @@
 
 
 #box19 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -296,7 +296,7 @@
 
 
 #box20 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -308,7 +308,7 @@
 
 
 #box21 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -320,7 +320,7 @@
 
 
 #box22 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -332,7 +332,7 @@
 
 
 #box23 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -345,7 +345,7 @@
 
 
 #box24 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -358,7 +358,7 @@
 
 
 #box25 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -371,7 +371,7 @@
 
 
 #box26 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -383,7 +383,7 @@
 
 
 #box27 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -395,7 +395,7 @@
 
 
 #box28 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -407,7 +407,7 @@
 
 
 #box29 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -419,7 +419,7 @@
 
 
 #box30 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -432,7 +432,7 @@
 
 
 #box31 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -444,7 +444,7 @@
 
 
 #box32 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -456,7 +456,7 @@
 
 
 #box33 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -468,7 +468,7 @@
 
 
 #box34 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -481,7 +481,7 @@
 
 
 #box35 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -493,7 +493,7 @@
 
 
 #box36 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -505,7 +505,7 @@
 
 
 #box37 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -518,7 +518,7 @@
 
 
 #box38 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -530,7 +530,7 @@
 
 
 #box39 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -542,7 +542,7 @@
 
 
 #box40 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -554,7 +554,7 @@
 
 
 #box41 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -566,7 +566,7 @@
 
 
 #box42 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -578,7 +578,7 @@
 
 
 #box43 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -590,7 +590,7 @@
 
 
 #box44 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -602,7 +602,7 @@
 
 
 #box45 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -614,7 +614,7 @@
 
 
 #box46 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -626,7 +626,7 @@
 
 
 #box47 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -639,7 +639,7 @@
 
 
 #box48 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -652,7 +652,7 @@
 
 
 #box49 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -664,7 +664,7 @@
 
 
 #box50 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -676,7 +676,7 @@
 
 
 #box51 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -689,7 +689,7 @@
 
 
 #box52 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -701,7 +701,7 @@
 
 
 #box53 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -713,7 +713,7 @@
 
 
 #box54 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -725,7 +725,7 @@
 
 
 #box55 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -737,7 +737,7 @@
 
 
 #box56 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -749,7 +749,7 @@
 
 
 #box57 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -761,7 +761,7 @@
 
 
 #box58 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -773,7 +773,7 @@
 
 
 #box59 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -785,7 +785,7 @@
 
 
 #box60 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
@@ -797,7 +797,7 @@
 
 
 #box61 {
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   position: fixed;
   width: 100%;
