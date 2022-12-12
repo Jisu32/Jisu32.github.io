@@ -66,7 +66,7 @@
   display: none;
   position: fixed;
   width: 100%;
-  height: 2000px;
+  height: 100%;
   top: 0;
   left: 0;
   backdrop-filter: blur(10px);
@@ -78,7 +78,7 @@
   display: none;
   position: fixed;
   width: 100%;
-  height: 2000px;
+  height: 100%;
   top: 0;
   left: 0;
   backdrop-filter: blur(10px);
@@ -90,7 +90,7 @@
   display: none;
   position: fixed;
   width: 100%;
-  height: 2000px;
+  height: 100%;
   top: 0;
   left: 0;
   backdrop-filter: blur(10px);
@@ -102,7 +102,7 @@
   display: none;
   position: fixed;
   width: 100%;
-  height: 2000px;
+  height: 100%;
   top: 0;
   left: 0;
   backdrop-filter: blur(10px);
@@ -1628,181 +1628,6 @@
   font-weight: 200;
 }
 
-.name1 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 80px;
-  left: 660px;
-  top: 200px;
-  /* background-color: aquamarine; */
-  font-size: 1.5em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 200;
-}
-
-.name4 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 80px;
-  left: 660px;
-  top: 100px;
-  /* background-color: aquamarine; */
-  font-size: 1.5em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 200;
-}
-
-.name59 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 80px;
-  left: 660px;
-  top: 110px;
-  /* background-color: aquamarine; */
-  font-size: 1.5em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 200;
-}
-
-.name7 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 80px;
-  left: 660px;
-  top: 120px;
-  /* background-color: aquamarine; */
-  font-size: 1.5em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 200;
-}
-
-.writer1 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 40px;
-  left: 660px;
-  top: 240px;
-  font-size: 1.0em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.writer4 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 40px;
-  left: 660px;
-  top: 140px;
-  font-size: 1.0em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.writer59 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 40px;
-  left: 660px;
-  top: 150px;
-  font-size: 1.0em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.writer7 {
-  display: block;
-  position: absolute;
-  width: 400px;
-  height: 40px;
-  left: 660px;
-  top: 160px;
-  font-size: 1.0em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.explain1 {
-  display: block;
-  position: absolute;
-  width: 600px;
-  height: 80px;
-  left: 660px;
-  top: 290px;
-  font-size: 1.0em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2.0em;
-}
-
-.explain4 {
-  display: block;
-  position: absolute;
-  width: 600px;
-  height: 80px;
-  left: 660px;
-  top: 190px;
-  font-size: 0.8em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2.0em;
-}
-
-.explain59 {
-  display: block;
-  position: absolute;
-  width: 600px;
-  height: 80px;
-  left: 660px;
-  top: 200px;
-  font-size: 0.8em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2.0em;
-}
-
-.explain7 {
-  display: block;
-  position: absolute;
-  width: 600px;
-  height: 80px;
-  left: 660px;
-  top: 210px;
-  font-size: 1.0em;
-  color: white;
-  font-family: 'Noto Serif KR', serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2.0em;
-}
 
 
 .exit1 {
@@ -2029,6 +1854,185 @@ span {
 }
 
 
+.name1 {
+  display: block;
+  position: absolute;
+  width: 700px;
+  height: 80px;
+  left: 660px;
+  top: 200px;
+  /* background-color: aquamarine; */
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.name4 {
+  display: block;
+  position: absolute;
+  width: 700px;
+  height: 80px;
+  left: 660px;
+  top: 100px;
+  /* background-color: aquamarine; */
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.name59 {
+  display: block;
+  position: absolute;
+  width: 700px;
+  height: 80px;
+  left: 660px;
+  top: 110px;
+  /* background-color: aquamarine; */
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.name7 {
+  display: block;
+  position: absolute;
+  width: 700px;
+  height: 80px;
+  left: 660px;
+  top: 120px;
+  /* background-color: aquamarine; */
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.writer1 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  left: 660px;
+  top: 240px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.writer4 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  left: 660px;
+  top: 140px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.writer59 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  left: 660px;
+  top: 150px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.writer7 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  left: 660px;
+  top: 160px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.explain1 {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  left: 660px;
+  top: 290px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.0em;
+  margin-bottom: 650px;
+}
+
+.explain4 {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  left: 660px;
+  top: 190px;
+  font-size: 0.8em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.0em;
+  margin-bottom: 750px;
+}
+
+.explain59 {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  left: 660px;
+  top: 200px;
+  font-size: 0.8em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.0em;
+  margin-bottom: 650px;
+}
+
+.explain7 {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  left: 660px;
+  top: 210px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.0em;
+  margin-bottom: 650px;
+}
 
 
 
@@ -2987,7 +2991,7 @@ span {
   .writer1 {
     display: block;
     position: relative;
-    width: 20%;
+    width: 90%;
     height: 5%;
     left: 50%;
     top: 240px;
@@ -3020,7 +3024,7 @@ span {
   .name4 {
     display: block;
     position: relative;
-    width: 20%;
+    width: 90%;
     height: 5%;
     left: 50%;
     top: 200px;
@@ -3037,7 +3041,7 @@ span {
   .name59 {
     display: block;
     position: relative;
-    width: 20%;
+    width: 90%;
     height: 5%;
     left: 50%;
     top: 200px;
@@ -3054,7 +3058,7 @@ span {
   .name7 {
     display: block;
     position: relative;
-    width: 20%;
+    width: 90%;
     height: 5%;
     left: 50%;
     top: 200px;
@@ -3071,7 +3075,7 @@ span {
   .writer4 {
     display: block;
     position: relative;
-    width: 20%;
+    width: 50%;
     height: 5%;
     left: 50%;
     top: 240px;
@@ -3087,7 +3091,7 @@ span {
   .writer59 {
     display: block;
     position: relative;
-    width: 20%;
+    width: 50%;
     height: 5%;
     left: 50%;
     top: 240px;
@@ -3103,7 +3107,7 @@ span {
   .writer7 {
     display: block;
     position: relative;
-    width: 20%;
+    width: 50%;
     height: 5%;
     left: 50%;
     top: 240px;
@@ -4310,7 +4314,8 @@ span {
 
   .name1 {
     left: 50%;
-    font-size: 0.8em;
+    font-size: 1.0em;
+    width: 1000px;
   }
 
   /*font-size: 0.8em;
@@ -4318,17 +4323,20 @@ span {
 
   .name4 {
     left: 50%;
-    font-size: 0.8em;
+    font-size: 1.0em;
+    width: 1000px;
   }
 
   .name59 {
     left: 50%;
-    font-size: 0.8em;
+    font-size: 1.0em;
+    width: 1000px;
   }
 
   .name7 {
     left: 50%;
-    font-size: 0.8em;
+    font-size: 1.0em;
+    width: 1000px;
   }
 
   .writer1 {
