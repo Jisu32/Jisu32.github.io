@@ -2034,6 +2034,22 @@ span {
   margin-bottom: 650px;
 }
 
+.explain13 {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  left: 660px;
+  top: 290px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.0em;
+  margin-bottom: 650px;
+}
+
 
 
 
@@ -3187,6 +3203,23 @@ span {
     text-align: center;
   }
 
+  .explain13 {
+    display: block;
+    position: relative;
+    width: 70%;
+    height: 40%;
+    left: 50%;
+    top: 250px;
+    transform: translate(-50%);
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Noto Serif KR', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.0em;
+    text-align: center;
+  }
+
   /*.booknumber {
     display: block;
     position: absolute;
@@ -3343,6 +3376,13 @@ span {
   }
 
   .explain7 {
+    left: 50%;
+    font-size: 0.8em;
+    width: 70%;
+    top: 250px;
+  }
+
+  .explain13 {
     left: 50%;
     font-size: 0.8em;
     width: 70%;
@@ -4367,7 +4407,7 @@ span {
     left: 50%;
     top: 230px;
     width: 70%;
-    height: 8%;
+    height: 6%;
   }
 
   .explain4 {
@@ -4388,6 +4428,14 @@ span {
     left: 50%;
     top: 230px;
     width: 70%;
+    height: 40%;
+  }
+
+  .explain13 {
+    left: 50%;
+    top: 230px;
+    width: 70%;
+    height: 14%;
   }
 
   .exit1 {
