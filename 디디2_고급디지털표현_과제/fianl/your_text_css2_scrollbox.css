@@ -2050,6 +2050,55 @@ span {
   margin-bottom: 650px;
 }
 
+.explain58 {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  left: 660px;
+  top: 290px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.0em;
+  margin-bottom: 650px;
+}
+
+
+.explain60 {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  left: 660px;
+  top: 290px;
+  font-size: 0.8em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.0em;
+  margin-bottom: 650px;
+}
+.explain61 {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 80px;
+  left: 660px;
+  top: 290px;
+  font-size: 1.0em;
+  color: white;
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.0em;
+  margin-bottom: 650px;
+}
+
+
 
 
 
@@ -3153,6 +3202,42 @@ span {
     text-align: center;
   }
 
+
+
+  .explain7 {
+    display: block;
+    position: relative;
+    width: 70%;
+    height: 40%;
+    left: 50%;
+    top: 250px;
+    transform: translate(-50%);
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Noto Serif KR', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.0em;
+    text-align: center;
+  }
+
+  .explain58 {
+    display: block;
+    position: relative;
+    width: 70%;
+    height: 40%;
+    left: 50%;
+    top: 250px;
+    transform: translate(-50%);
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Noto Serif KR', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.0em;
+    text-align: center;
+  }
+
   .explain59 {
     display: block;
     position: relative;
@@ -3170,7 +3255,41 @@ span {
     text-align: center;
   }
 
-  .explain7 {
+  .explain13 {
+    display: block;
+    position: relative;
+    width: 70%;
+    height: 40%;
+    left: 50%;
+    top: 250px;
+    transform: translate(-50%);
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Noto Serif KR', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.0em;
+    text-align: center;
+  }
+
+  .explain60 {
+    display: block;
+    position: relative;
+    width: 70%;
+    height: 40%;
+    left: 50%;
+    top: 250px;
+    transform: translate(-50%);
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Noto Serif KR', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.0em;
+    text-align: center;
+  }
+
+  .explain61 {
     display: block;
     position: relative;
     width: 70%;
@@ -3200,23 +3319,6 @@ span {
     font-family: 'Noto Serif KR', serif;
     font-style: normal;
     font-weight: 200;
-    text-align: center;
-  }
-
-  .explain13 {
-    display: block;
-    position: relative;
-    width: 70%;
-    height: 40%;
-    left: 50%;
-    top: 250px;
-    transform: translate(-50%);
-    font-size: 0.8em;
-    color: white;
-    font-family: 'Noto Serif KR', serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2.0em;
     text-align: center;
   }
 
@@ -3383,6 +3485,34 @@ span {
   }
 
   .explain13 {
+    left: 50%;
+    font-size: 0.8em;
+    width: 70%;
+    top: 250px;
+  }
+
+  .explain58 {
+    left: 50%;
+    font-size: 0.8em;
+    width: 70%;
+    top: 250px;
+  }
+
+  .explain59 {
+    left: 50%;
+    font-size: 0.8em;
+    width: 70%;
+    top: 250px;
+  }
+
+  .explain60 {
+    left: 50%;
+    font-size: 0.8em;
+    width: 70%;
+    top: 250px;
+  }
+
+  .explain61 {
     left: 50%;
     font-size: 0.8em;
     width: 70%;
@@ -4417,18 +4547,11 @@ span {
     height: 40%;
   }
 
-  .explain59 {
-    height: 30%;
-    left: 50%;
-    top: 230px;
-    width: 70%;
-  }
-
   .explain7 {
     left: 50%;
     top: 230px;
     width: 70%;
-    height: 40%;
+    height: 20%;
   }
 
   .explain13 {
@@ -4437,6 +4560,36 @@ span {
     width: 70%;
     height: 14%;
   }
+
+  .explain58 {
+    height: 30%;
+    left: 50%;
+    top: 230px;
+    width: 70%;
+  }
+
+  .explain59 {
+    height: 50%;
+    left: 50%;
+    top: 230px;
+    width: 70%;
+  }
+
+  .explain60 {
+    height: 40%;
+    left: 50%;
+    top: 230px;
+    width: 70%;
+  }
+
+  .explain61 {
+    height: 10%;
+    left: 50%;
+    top: 230px;
+    width: 70%;
+  }
+
+
 
   .exit1 {
     display: block;
